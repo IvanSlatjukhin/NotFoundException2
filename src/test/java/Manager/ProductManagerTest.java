@@ -49,7 +49,7 @@ class ProductManagerTest {
     @Test
     public void shouldFindPhoneManufacturer() {
         Product[] expected = {phone};
-        Product[] actual = manager.searchBy("Samsung");
+        Product[] actual = manager.searchBy("BBK Electronics");
         assertArrayEquals(expected, actual);
     }
 
